@@ -37,7 +37,7 @@ const ourClasses = ({ setSelectedPage }: Props) => {
           </div>
         </motion.div>
         <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-          <ul className=" w-[28000px] whitespace-nowrap">
+          <ul className=" w-[2800px] whitespace-nowrap">
             {classes.map((item: ClassObject, idx) => (
               <Class
                 key={`${item.name}-${idx}`}
