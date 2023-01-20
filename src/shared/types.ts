@@ -10,3 +10,9 @@ export interface BenefitObject {
   title: string;
   description: string;
 }
+
+export interface ClassObject {
+  name: string;
+  description?: string;
+  image: string;
+}

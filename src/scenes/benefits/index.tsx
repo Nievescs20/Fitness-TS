@@ -2,7 +2,7 @@ import React from "react";
 import { BenefitObject, SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
-import benefits from "@/data";
+import { benefits } from "@/data";
 import Benefit from "./Benefit";
 import ActionButton from "@/shared/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
