@@ -10,7 +10,6 @@ type Props = {
 };
 
 const ourClasses = ({ setSelectedPage }: Props) => {
-  console.log("classes", classes);
   return (
     <section id="ourclasses" className="w-full bg-primary-100 py-40">
       <motion.div
